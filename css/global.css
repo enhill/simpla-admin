@@ -705,3 +705,7 @@ select.form-input{
 .search-btn:hover{
 	color: #757575
 }
+/* Link row */
+.link-row{
+    margin: 15px 0;
+}
