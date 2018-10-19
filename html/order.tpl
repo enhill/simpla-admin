@@ -367,7 +367,12 @@
 				</div>
 				{/if}
 			
+			<div class="link-row">
 				<a href="{url view=print id=$order->id}" class="btn" target="_blank"><i class="icon-print"></i> Печать заказа</a>
+			</div>
+			<div class="link-row">	
+				<a href="{$config->root_url}/order/{$order->url}" class="btn" target="_blank"><i class="icon-attach"></i> Ссылка заказа</a>
+			</div>
 			{/if}
 			
 			<hr>
