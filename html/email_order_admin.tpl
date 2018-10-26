@@ -153,7 +153,7 @@
                                     <tr>
                                         <td align="center" style="font-size:0px;padding:10px 25px;word-break:break-word;">
                                             <div style="font-family:Roboto, Arial;font-size:16px;line-height:1;text-align:center;color:#4a4a4a;">
-                                                <span style="font-size: 14px">на сумму</span> 224 320 Руб
+                                                <span style="font-size: 14px">на сумму</span> {$order->total_price|convert:$main_currency->id}&nbsp;{$main_currency->sign}
                                             </div>
                                         </td>
                                     </tr>
