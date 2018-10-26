@@ -207,6 +207,7 @@
 											{foreach $purchases as $purchase}
                                                 <tr>
                                                     <td style="padding: 5px 0 0; width: 35px;  vertical-align: top">
+						    {$image = $purchase->product->images[0]}
 														<a href="{$config->root_url}/products/{$purchase->product->url}">
 															<img src="{$image->filename|resize:35:35}" style="border:0;display:block;outline:none;text-decoration:none;width:100%;" width="35" height="auto"/>
 														</a>
